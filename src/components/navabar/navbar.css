@@ -7,3 +7,87 @@ h1{
     color:rgb(0, 47, 255) !important;
     font-size: 45px;
 }
+
+.navbar{
+   height: 100%
+}
+
+@media screen and (max-width: 2561px) {
+    .navbar{
+        padding-top: 30px;
+    }
+ }
+
+
+@media screen and (max-width: 1441px) {
+    .navbar{
+        padding-top: 20px;
+    }
+ }
+
+@media screen and (max-width: 1025px) {
+   .navbar{
+       padding-top: 20px;
+   }
+}
+
+@media screen and (max-width: 769px) {
+    h1{
+        font-size:52px;
+        margin-left:150px;
+    }
+   
+  }
+  
+@media screen and (max-width: 426px) {
+    .navbar {
+      
+        width: 102% ; 
+        margin-left: 3px;
+       
+    }
+    h1{
+        font-size:32px;
+        margin-left:65px;
+    }
+   
+  }
+    
+@media screen and (max-width: 376px) {
+    /* .navbar {
+      
+        width: 102% ; 
+        margin-left: 3px;
+       
+    } */
+    h1{
+        font-size:30px;
+        margin-left:47px;
+    }
+    .navbar-text {
+        padding-right: 13%;
+   
+  }
+}
+  /*
+  @media screen and (max-width: 375px) {
+    .navbar-expand-lg {
+      
+        width: 93% ; 
+        margin-left: 2px;
+       
+    }
+    .navbar-text {
+        font-size: 17px;
+
+    }
+  }*/
+
+  @media screen and (max-width: 321px){
+   
+    h1 {
+        font-size: 18px;
+        margin-left:65px;
+
+    }
+} 
