@@ -86,8 +86,13 @@ h1{
   @media screen and (max-width: 321px){
    
     h1 {
-        font-size: 18px;
-        margin-left:65px;
+        font-size: 22px;
+        margin-left:49px;
+
+    }
+    .navbar-text {
+        font-size: 16px;
+        margin-left: auto;
 
     }
 } 
