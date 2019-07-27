@@ -52,6 +52,7 @@ h1{
     }
    
   }
+      
     
 @media screen and (max-width: 376px) {
     /* .navbar {
@@ -69,19 +70,22 @@ h1{
    
   }
 }
-  /*
-  @media screen and (max-width: 375px) {
-    .navbar-expand-lg {
+@media screen and (max-width: 361px) {
+    /* .navbar {
       
-        width: 93% ; 
-        margin-left: 2px;
+        width: 102% ; 
+        margin-left: 3px;
        
+    } */
+    h1{
+        font-size:28px;
+        margin-left:42px;
     }
     .navbar-text {
-        font-size: 17px;
-
-    }
-  }*/
+        padding-right: 13%;
+   
+  }
+}
 
   @media screen and (max-width: 321px){
    
